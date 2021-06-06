@@ -58,9 +58,12 @@ dependencies {
     implementation "androidx.core:core:$version_core"
 
     // Material Design
+    //noinspection GradleDependency
     implementation "com.google.android.material:material:$version_material"
 
     // Navigation
+
     implementation "android.arch.navigation:navigation-fragment-ktx:$version_navigation"
     implementation "android.arch.navigation:navigation-ui-ktx:$version_navigation"
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 }
